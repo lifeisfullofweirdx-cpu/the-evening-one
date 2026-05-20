@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "evening_one:steven",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/steven/steven"
+      },
+      "geometry": {
+        "default": "geometry.steven.main"
+      },
+      "animations": {
+        "move": "animation.steven.move",
+        "idle": "animation.steven.idle",
+        "stalk": "animation.steven.stalk",
+        "attack": "animation.steven.attack",
+        "sit": "animation.steven.sit",
+        "look": "animation.steven.look"
+      },
+      "animation_controllers": [
+        { "play": "controller.animation.steven.main" }
+      ],
+      "render_controllers": [
+        "controller.render.steven"
+      ]
+    }
+  }
+}
