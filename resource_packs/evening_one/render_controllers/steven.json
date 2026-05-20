@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.steven": {
+      "geometry": "geometry.steven.main",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [
+        "textures/entity/steven/steven"
+      ]
+    }
+  }
+}
