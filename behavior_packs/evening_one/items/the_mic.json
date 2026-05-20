@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "evening_one:the_mic",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "The Mic"
+      },
+      "minecraft:durability": {
+        "max_durability": 0
+      },
+      "minecraft:glint": {},
+      "minecraft:max_stack_size": 1
+    }
+  }
+}
