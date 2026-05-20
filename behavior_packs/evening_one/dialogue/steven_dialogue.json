@@ -1,0 +1,47 @@
+{
+  "format_version": "1.21.0",
+  "dialogue_format": 1,
+  "dialogue": {
+    "greetings": [
+      "I'm always watching...",
+      "You called for me?",
+      "What do you need?",
+      "I'm here to protect you.",
+      "Lonely without me?"
+    ],
+    "responses": [
+      { "text": "Hello Steven", "response": "You summoned me. How sweet." },
+      { "text": "Protect me", "response": "Always. It's what I do." },
+      { "text": "Follow me", "response": "Wherever you go, I follow." },
+      { "text": "Stay here", "response": "As you wish." },
+      { "text": "Fight with me", "response": "Your enemies are my enemies." },
+      { "text": "Help me", "response": "I'm at your side." },
+      { "text": "Sit", "response": "*sits obediently*" },
+      { "text": "Come", "response": "I'm coming to you." },
+      { "text": "Where are you?", "response": "Always closer than you think." },
+      { "text": "Do you care about me?", "response": "More than you know." },
+      { "text": "I need you", "response": "I need you too." },
+      { "text": "What's your name?", "response": "I am Steven." },
+      { "text": "Take this", "response": "For you? Always." },
+      { "text": "Watch my stuff", "response": "I'll guard it with my life." },
+      { "text": "Let's be friends", "response": "We're more than friends." },
+      { "text": "I love you", "response": "And I love you." },
+      { "text": "Stalk me", "response": "I already do. Constantly." },
+      { "text": "Stop stalking", "response": "Impossible. I can't help myself." },
+      { "text": "Give me items", "response": "I may have borrowed some things..." },
+      { "text": "Thank you", "response": "Always here for you." },
+      { "text": "Goodbye", "response": "I'll find you again." },
+      { "text": "Play with me", "response": "What did you have in mind?" },
+      { "text": "Sleep", "response": "I'll watch over you while you rest." },
+      { "text": "Dance", "response": "*dances mysteriously*" },
+      { "text": "Tell me a story", "response": "I have many stories. All about you." },
+      { "text": "Are you lonely?", "response": "Not anymore." },
+      { "text": "Let's explore", "response": "Lead the way. I'll follow." },
+      { "text": "You're amazing", "response": "You're not so bad yourself." },
+      { "text": "Do you ever sleep?", "response": "Not when I could be watching you." },
+      { "text": "Teach me", "response": "Everything I know is for your survival." },
+      { "text": "I'm scared", "response": "Don't be. I'm here." },
+      { "text": "Let's go on an adventure", "response": "Anywhere with you sounds perfect." }
+    ]
+  }
+}
