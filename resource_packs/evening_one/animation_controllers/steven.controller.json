@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.steven.main": {
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "transitions": [
+            { "sit": "query.is_sitting" },
+            { "move": "query.is_moving" },
+            { "attack": "query.is_attacking" },
+            { "stalk": "query.is_stalking" }
+          ],
+          "animations": ["idle", "look"]
+        },
+        "move": {
+          "blend_transition": 0.2,
+          "transitions": [
+            { "default": "!query.is_moving" }
+          ],
+          "animations": ["move"]
+        },
+        "attack": {
+          "blend_transition": 0.2,
+          "transitions": [
+            { "default": "!query.is_attacking" }
+          ],
+          "animations": ["attack"]
+        },
+        "sit": {
+          "blend_transition": 0.2,
+          "transitions": [
+            { "default": "!query.is_sitting" }
+          ],
+          "animations": ["sit"]
+        },
+        "stalk": {
+          "blend_transition": 0.2,
+          "transitions": [
+            { "default": "!query.is_stalking" }
+          ],
+          "animations": ["stalk"]
+        }
+      }
+    }
+  }
+}
